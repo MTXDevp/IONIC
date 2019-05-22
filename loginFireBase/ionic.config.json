@@ -1,0 +1,8 @@
+{
+  "name": "LoginBasicoNeedRegistrar",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular",
+  "id": "c2b5789a"
+}

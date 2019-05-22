@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Página Principal</ion-title>
+  </ion-toolbar>
+</ion-header>
+ 
+<ion-content padding>
+ 
+  <ion-grid>
+    <ion-row>
+      <ion-col text-center>
+       Bienvenido a la página principal!
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col text-center>
+        Estas registrado con el email : {{userEmail}}
+      </ion-col>
+    </ion-row>
+  </ion-grid>  
+  
+  
+</ion-content>
+<ion-footer (click)="logout()">
+  <ion-toolbar color="secondary">
+    <ion-title>Log out</ion-title>
+  </ion-toolbar>
+</ion-footer>
