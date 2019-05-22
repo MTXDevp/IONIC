@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      TEST SCANNER DE CODIGO QR
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+      <div *ngIf="scannedData">
+        <P>ID PRODUCTO : {{ IDPRODUCTO3 }}</P>
+        <p>Unidades : {{ unidades }}</p>
+        <p>Contenido : {{ scannedData["text"] }}</p>
+        <p>Formato : {{ scannedData["format"] }}</p>
+      </div>
+
+</ion-content>
+<ion-footer>
+
+  <div class="ion-padding">
+
+    <ion-button (click)="eventoQR()">
+      SCANNEAR QR
+    </ion-button>
+
+    <ion-button (click)="eventoBarras()">
+      SCANNEAR CODIGO BARRAS
+    </ion-button>
+
+  </div>
+
+
+</ion-footer>
