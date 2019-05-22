@@ -1,0 +1,8 @@
+{
+  "name": "LeafletMaps",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular",
+  "id": "1e8aefd1"
+}
