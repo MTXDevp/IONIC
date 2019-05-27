@@ -1,0 +1,21 @@
+<h1>{{ name }}</h1>
+<ng-container [ngTemplateOutlet]="getTemplate">
+
+</ng-container>
+
+
+<ng-template #1>
+      <p>VALOR DEL FILTRO : {{setValor}}</p>
+
+     <ion-input class="valorFiltro" placeholder="send home" [(ngModel)]="valor" type="text">
+     </ion-input>
+
+     <ion-button (click)="mandarAlHomeFiltroBasico()">
+          ACEPTAR
+     </ion-button>
+</ng-template>
+
+
+<ng-template #2>
+  <h3> Soy unos radiobuttons</h3>
+</ng-template>
