@@ -1,7 +1,0 @@
-{
-  "name": "notificacionesPush",
-  "integrations": {
-    "cordova": {}
-  },
-  "type": "angular"
-}
