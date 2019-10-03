@@ -1,0 +1,7 @@
+{
+  "name": "0029-GUARDS",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

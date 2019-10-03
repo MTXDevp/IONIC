@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      COMPONENTE HOME
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="ion-padding">
+    <div>
+        <app-hermano1 (emitMsg)="IntermediarioMensaje($event)"></app-hermano1>
+    </div>
+    <div>
+        <app-hermano2 [mensajeRecibido]="getMensaje"></app-hermano2>
+    </div>
+  </div>
+</ion-content>

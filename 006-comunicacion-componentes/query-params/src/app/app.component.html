@@ -1,0 +1,103 @@
+<ion-app>
+  <ion-menu side="start" menu-id="LeftMenu">
+    <ion-list>
+
+        <ion-item>
+            <ion-input [(ngModel)]="valueTo2"></ion-input>
+            <ion-button id="botonFiltro2" (click) = "eventFiltro($event);">FILTRO 2</ion-button>
+        </ion-item>
+
+
+      <ion-item>
+          <ion-input [(ngModel)]="valueTo3"></ion-input>
+          <ion-button id="botonFiltro3" (click) = "eventFiltro($event);">FILTRO 3</ion-button>
+      </ion-item>
+
+      <ion-item>
+          <ion-input [(ngModel)]="valueTo4"></ion-input>
+          <ion-button id="botonFiltro4" (click) = "eventFiltro($event);">FILTRO 4</ion-button>
+      </ion-item>
+
+  </ion-list>
+</ion-menu>
+
+<!----------------------------final menu izquierda----------------------------->
+
+<ion-menu side="end" menu-id="RightMenu">
+  <ion-header>
+      <ion-toolbar color="primary">
+        <ion-title>
+          Filtros
+        </ion-title>
+      </ion-toolbar>
+  </ion-header>
+
+<!--CONTENIDO MENU DESPLEGABLE-->
+<ion-content>
+<p>TEST</p>
+</ion-content>
+
+</ion-menu>
+
+<!---------------------------final menu derecha------------------------------------------------>
+
+  <div class="ion-page" main>
+      <ion-header>
+        <ion-toolbar>
+
+          <ion-button (click)='OpenLeftMenu()'>
+            <ion-icon name="menu"></ion-icon>
+          </ion-button>
+
+        </ion-toolbar>
+      </ion-header>
+
+
+  <ion-router-outlet></ion-router-outlet>
+
+  <style>
+    .menuR{
+      margin-left: 270px;
+      }
+      .campa{
+        margin-left: 70px;
+      }
+      .botonPeticion
+      {
+        --ion-background-color : #111D12;
+      }
+      .foot
+      {
+        margin-left : 10px;
+      }
+      .botonEnviar
+      {
+        --width     : 60px;
+        --height    : 60px;
+        margin-left : 270px;
+      }
+      .wide
+      {
+        width : 100px;
+      }
+      .large {
+        font-weight: normal;
+        font-size: 24px;
+      }
+      .botonMenuDerecha {
+        margin-left: 260px;
+      }
+      .round
+      {
+        width            : 60px;
+        height           : 60px;
+        --border-radius  : 50%;
+        --vertical-align : middle;
+        --padding-start  : 10px;
+        --padding-end    : 10px;
+      }
+      .customBotonIzquiero {
+        width: 60px;
+        height: 60px;
+      }
+    </style>

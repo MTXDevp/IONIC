@@ -1,0 +1,7 @@
+{
+  "name": "queryParams",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

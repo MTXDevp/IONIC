@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>padre</ion-title>
+    <ion-input [(ngModel)]="inputValue" placeholder="MENSAJE"></ion-input>
+    <ion-button (click)="emit();">ENVIAR</ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <app-hijo [getMensaje]="getInputValue"></app-hijo>
+
+</ion-content>
