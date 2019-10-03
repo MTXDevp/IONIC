@@ -1,0 +1,12 @@
+{
+    "autoload": {
+        "psr-4": {
+            "MyApp\\": "src"
+        }
+    },
+    "require": {
+        "baudev/fcm-xmpp": "^1.1",
+        "kreait/firebase-php": "4.32.0",
+        "grpc/grpc": "^1.22"
+    }
+}

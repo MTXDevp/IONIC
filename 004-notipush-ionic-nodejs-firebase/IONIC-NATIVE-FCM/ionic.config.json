@@ -1,0 +1,7 @@
+{
+  "name": "FCM-CLEAN",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

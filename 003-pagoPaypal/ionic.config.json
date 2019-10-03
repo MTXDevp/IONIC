@@ -1,0 +1,8 @@
+{
+  "name": "pagoPaypal",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular",
+  "id": "ee4b365b"
+}

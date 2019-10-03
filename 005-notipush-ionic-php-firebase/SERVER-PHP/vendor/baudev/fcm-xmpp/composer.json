@@ -1,0 +1,34 @@
+{
+  "name": "baudev/fcm-xmpp",
+  "description": "Allows XMPP connection with Firebase Cloud Messaging. It can listen upstream messages and send downstream ones.",
+  "keywords": ["PHP", "FCM", "XMPP", "Firebase", "Upstream", "Downstream", "Cloud", "Messaging"],
+  "license": "MIT",
+  "version": "1.1.0",
+  "authors": [
+    {
+      "name": "Irvan Kurniawan",
+      "homepage": "https://github.com/sourc7",
+      "role": "Developer"
+    },
+    {
+      "name": "Baudev",
+      "email": "baudev.contact@gmail.com",
+      "homepage": "https://github.com/baudev",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.2"
+  },
+  "config": {
+    "optimize-autoloader": true
+  },
+  "autoload": {
+    "psr-4": {
+      "FCMStream\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8"
+  }
+}
